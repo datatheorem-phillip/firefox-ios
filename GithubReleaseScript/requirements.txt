@@ -1,3 +1,6 @@
 requests~=2.28.1
 git-python
 PyGithub
+certifi>=2023.7.22 # not directly required, pinned by Snyk to avoid a vulnerability
+gitpython>=3.1.35 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
